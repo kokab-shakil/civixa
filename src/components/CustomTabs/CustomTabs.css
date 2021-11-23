@@ -1,0 +1,112 @@
+/* .customTabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #12356a;
+}
+
+.customTabs .nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+  padding: 0.7em 2.2em;
+  border: 0.1em solid rgb(209, 208, 208);
+  color: rgb(209, 208, 208);
+  text-decoration: none;
+  background-color: white;
+  margin-top: 10px;
+} */
+
+/* .customTabs .nav-pills :first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.customTabs .nav-pills :last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+.childTab .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #ffffff;
+	background-color: #12356a;
+	border-radius: 24px;
+	padding: 0.4rem 1.3rem;
+	text-align: left;
+	font: normal normal 600 18px/24px Source Sans Pro;
+	letter-spacing: 0px;
+	color: #ffffff;
+	width: max-content;
+	/* border-bottom: 3px solid #5cdb95; */
+}
+
+.childTab .nav-pills .nav-link.active .tabIcon,
+.nav-pills .show > .nav-link .tabIcon {
+	filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(316deg)
+		brightness(104%) contrast(105%);
+}
+
+.childTab .nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+	text-align: left;
+	font: normal normal 600 18px/24px Source Sans Pro;
+	letter-spacing: 0px;
+	color: #95989d;
+}
+
+.childTab .nav-pills .nav-link,
+.nav-pills .show > .nav-link .tabIcon {
+	border-radius: 0;
+}
+
+.topLeftDots {
+	position: absolute;
+	top: -40px;
+	left: -40px;
+	z-index: 0;
+}
+
+.ourServiceParentTab.nav.nav-pills {
+	border: 2px solid #12356a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.ourServiceParentTab.nav.nav-pills .nav-item {
+	font-size: 1rem;
+	padding: 0px;
+	text-align: center;
+}
+
+.ourServiceParentTab.nav.nav-pills .nav-link {
+	background-color: transparent;
+	color: #12356a;
+	padding: 4px 40px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.ourServiceParentTab.nav.nav-pills .nav-link.active {
+	background-color: #12356a;
+	color: white;
+}
+
+@media (max-width: 767px) {
+	.ourServiceParentTab.nav.nav-pills {
+		border: none;
+	}
+}
+
+.responsive-carousel .tabIcon {
+	width: auto;
+}
+
+.responsive-carousel .InfiniteCarouselArrowIcon {
+	padding: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+ .topLeftDots {
+	display: none;
+}
+
+
+}

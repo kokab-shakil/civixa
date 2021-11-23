@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172" height="46" viewBox="0 0 172 46">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="-41.478 2.846 234.383 62.684">
+      <image preserveAspectRatio="xMidYMid slice" width="172" height="68.8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABQCAMAAABrs8qCAAAAkFBMVEUAAADiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxfiFxc5YNJsAAAAL3RSTlMA4BAg8DBA+9D3AtbsagVwShO6rlMbDN9kOTYrKNrBm+floYd3WjMJ8tPHsqeSf50Muj0AAAMiSURBVGje7dfLdqpAEIXhLSoIgoiKifckarzkUu//dic5KtXa3QLCIIP6RlnLxPALtbqEEEIIIYQQQgghhBDiT1q3TgY4Cdz1x6JhkYK16NoKrHE2wY8kGnYbdjFqEdFZB792m1e6o6mHsC0ydOYCu7VPd3kj1KDvXYVMnogeDvFnhpC0Q3n8CSp735MaMvKoQgh1x1rI+ED5wiYqar4Qh/DtKRnC3rSQFRWxSFCJcyA1JG1RxRB6vgmJqZhlDxX0BnQVMqSKITwm2UdNBX0GeNwbqTpTqhrCY0KlrfGwb7oOuXT5m3nzRjsvhH0aQ6KePp/aU/mgLV178u3v6OSGsMgQ4gO5IV4fD3E9shhXC/HbegjFiXMxtoTQvo0HzFtkw5deZkbYwgHojnDYDzhE8ZqitLSR3dFN3SE05BCPjI5zJWTAYzpGSbsOz1i79hCKkDWRWWvCIemSsqYeSgk+6OIbtYV0eUze6azfJbMwzUIch39phVK+eKcI6gtxeeHMfnJnLTIbcAhS3rg3KCFWN4P6QtpTfSJcTG0lzxwCJXeLwnjF7TqoMwSxIQTzIxktlBBM/OyxdFEQ/81LE/WGBENDCILRR0h3ONefbjhHIc3sTffvMIb08KPn/orLhcB50kJOxs5F8m0MQcQDlqCAZKGsBOaQETIu3YiRmZEegtsxcaFJzCHgwOMOuXrLmyWNQ16yezsKtJBXOmldXgumBzppqCGI80J6G0sIVnyiBsgRfN6uzRzSGZAd/xO/9Z9PF19qCI9JcY5+un0hx1r/IsMhLtndeW2ihvCY5GrchmB3VHaDu57VA0QLwQdZOQOyWEIN4THJFWkhSLrFdvq+eoAYQpIXe8jMJyN/dhuCmIo4JnoImq+85cCqvVcOEFMI2qE1BFuPTJ6hhRQak7Dp6CF8xPM16lKtVgvBvGsNwdYnjRdBCyk0JuEUxhC4vvLUGI072vOnh2C3CW0hmGtz0plACyk0Jss5LCEYeTk7/apxEcEeAoy3b4e9MQR4/zrwJS4++wG0kPwx8borF7CFqEf8G4QQQgghhBBCCCGEEH/KP38yY5qAIhQWAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="Group_2712" fill="url(#pattern)" data-name="Group 2712" transform="translate(-482 -578)">
+    <rect id="Rectangle_2190" data-name="Rectangle 2190" width="172" height="46" transform="translate(482 578)" fill="url(#pattern)" style="mix-blend-mode: luminosity;isolation: isolate"/>
+  </g>
+</svg>

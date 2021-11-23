@@ -1,0 +1,82 @@
+.bannerColor {
+	background-color: #12356a;
+}
+.height-770 {
+	min-height: 770px;
+}
+
+.card.serviceCard {
+	width: 304px;
+	height: auto;
+	box-shadow: 0px 5px 7px #00000029;
+	border-radius: 10px;
+}
+.serviceCardHeading {
+	font: normal normal bold 24px/32px Source Sans Pro;
+}
+
+.typeofservices .nav.nav-pills {
+	border: 2px solid #12356a;
+	border-radius: 20px;
+}
+
+.typeofservices .nav.nav-pills .nav-item {
+	font-size: 1rem;
+	padding: 0px;
+	text-align: center;
+}
+
+.typeofservices .nav.nav-pills .nav-link {
+	background-color: transparent;
+	color: #12356a;
+	padding: 4px 24px;
+	font-weight: bold;
+}
+
+.typeofservices .nav.nav-pills .nav-link.active {
+	background-color: #12356a;
+	color: white;
+	border-radius: 20px;
+}
+.iconWidth{
+	width: 30%;
+}
+/* .top-heading-bottom {
+  margin-bottom: -26px;
+  font-size: 57px;
+} */
+.h-service {
+	height: 500px;
+}
+.top-heading {
+	line-height: 0.5;
+}
+
+.top-heading-bottom {
+	font-size: 4rem;
+}
+
+.heightpara{
+	height: 14rem;
+}
+@media (max-width: 575px) {
+	.typeofservices .nav.nav-pills {
+		border: none;
+	}
+	.top-heading-bottom {
+		font-size: 2rem;
+	}
+
+}
+@media (max-width: 800px) {
+	.card.serviceCard {
+	width: 100%;
+	
+}
+.heightpara{
+	height: auto;
+}
+.h-service {
+	height: auto;
+}
+}

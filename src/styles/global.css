@@ -1,0 +1,49 @@
+::placeholder {
+	color: #a5b3c6;
+}
+
+/* Media Queries */
+
+@media only srceen and (min-width: 992) {
+	.text-lg {
+		font-size: 10.5vw;
+	}
+}
+
+/* end */
+
+.w-70 {
+	width: 70%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-sm-50 {
+	width: 100%;
+}
+.padding-right {
+	padding-right: 10vw;
+}
+
+@media (max-width: 992px) {
+	.w-70 {
+		width: 100%;
+	}
+	.w-60 {
+		width: 90%;
+	}
+	/* .data-heading {
+		text-align: center;
+	} */
+	.w-sm-50 {
+		width: 50%;
+	}
+}
+
+@media (max-width: 991px) {
+	.padding-right {
+		padding-right: 0vw;
+	}
+}

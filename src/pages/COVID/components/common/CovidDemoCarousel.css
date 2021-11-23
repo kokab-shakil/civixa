@@ -1,0 +1,136 @@
+.ServiceServicesCarousel.swiper-container {
+	width: 100%;
+	height: auto;
+	/* padding-bottom: 3.75rem; */
+	right: 0px;
+}
+.ServiceServicesCarousel.swiper-container .swiper-wrapper {
+	border: 2px solid #12356a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.ServiceServicesCarousel .swiper-button-next,
+.swiper-button-prev {
+	top: auto;
+	bottom: 0;
+}
+.ServiceServicesCarousel .swiper-button-prev {
+	left: 0;
+}
+
+.ServiceServicesCarousel .swiper-button-next {
+	left: 3%;
+}
+.ServiceServicesCarousel .swiper-button-next.swiper-button-disabled {
+	left: 3%;
+}
+
+.ServiceServicesCarousel .swiper-button-prev.swiper-button-disabled {
+	left: 0%;
+}
+
+@media screen and (max-width: 700px) {
+	.ServiceServicesCarousel .swiper-button-next {
+		left: 8%;
+	}
+	.ServiceServicesCarousel .swiper-button-next.swiper-button-disabled {
+		left: 8%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.ServiceServicesCarousel .swiper-button-next {
+		left: 10%;
+	}
+	.ServiceServicesCarousel .swiper-button-next.swiper-button-disabled {
+		left: 10%;
+	}
+}
+
+.ServiceServicesCarousel .swiper-slide {
+	text-align: center;
+	font-size: 1.125rem;
+	/* background: #fff; */
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	-webkit-justify-content: start;
+	justify-content: start;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	-webkit-align-items: start;
+	align-items: start;
+	max-width: max-content;
+	border: none;
+}
+
+.swiper-slide {
+	width: 100%;
+}
+.ServiceServicesCarousel.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+	transform: none;
+	width: max-content;
+}
+
+.service-button {
+	background-color: transparent;
+	color: #12356a;
+	padding: 4px 40px;
+	font-weight: 700;
+	border: none;
+	transition: 0.5s all ease-out;
+	opacity: 1;
+}
+
+.service-button.selected {
+	background-color: #12356a;
+	color: #fff;
+}
+
+.service-button:focus {
+	background-color: #12356a;
+	color: #ffffff;
+	/* border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px; */
+}
+
+.childSelected {
+	color: #12356a;
+	background-color: #fff;
+	border-bottom: 3px solid #5cdb95;
+	width: max-content;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+/* .ServiceServicesCarousel .swiper-container-android .swiper-slide, .swiper-wrapper
+
+.swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+    left: 50px;
+}
+*/
+
+.max-width-md {
+	max-width: 720px;
+}
+
+.service-carousel-smallIcon {
+	padding-right: 20px;
+}
+

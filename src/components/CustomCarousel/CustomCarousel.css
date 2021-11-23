@@ -1,0 +1,13 @@
+/* .InfiniteCarouselSlide img {
+  width: 100px;
+} */
+
+.InfiniteCarouselFrame {
+	width: 90%;
+	margin: auto;
+}
+
+li.InfiniteCarouselSlide {
+	display: flex !important;
+	justify-content: center;
+}

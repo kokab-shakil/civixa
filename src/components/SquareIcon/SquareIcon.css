@@ -1,0 +1,31 @@
+.icon-size {
+  width: auto;
+  height: auto;
+}
+.lineHeight {
+  line-height: 1vh;
+}
+.paddingMidIcon{
+  padding: 37px 0px
+}
+
+.arrow-after::after {
+  content: url(../../images/ForwardArrow.svg);
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .arrow-after::after {
+    transform: rotateZ(90deg);
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .arrow-after::after {
+    transform: rotateZ(90deg);
+    padding: 15px;
+  }
+  .paddingMidIcon{
+  padding: 0px 0px
+}
+}

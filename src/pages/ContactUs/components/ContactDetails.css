@@ -1,0 +1,12 @@
+.contactusinfo {
+	padding-bottom: 10vw;
+}
+
+.contactusinfo-form {
+	margin-top: -90px;
+}
+@media only screen and (max-width: 500px) {
+ .contactusinfo-form {
+	margin-top: -60px;
+}
+}

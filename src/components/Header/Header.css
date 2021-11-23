@@ -1,0 +1,325 @@
+.logo-heading {
+	font-size: 26px;
+	font-weight: 500;
+	font: normal normal medium 26px/35px Gotham Rounded;
+}
+
+.header.navbar {
+	height: 71px;
+}
+
+.header .navbar-nav .nav-link {
+	/* color: #ffffff; */
+	font: normal normal 600 13px/20px Source Sans Pro;
+}
+.pl{
+	padding-left: 6.5vw;
+	padding-right: 8vw;
+	padding-top: 6.5vw;
+
+}
+.headingWork {
+    color: white;
+    letter-spacing: 0.98rem;
+    font-weight: bold;
+    line-height: 6rem;
+    font-size: 2.2rem;
+    font-size: 2.2rem;
+}
+.btnNav{
+	width: 150px;
+	font-size: 14px;
+	padding: 0.8rem, 1rem;
+	border-radius: 5px;
+	border: 2px solid #12356a;
+	background-color: #ffffff;
+	color: #12356a;
+	font-size: .8125rem;
+	font-weight: 900
+}
+.btnReqDemo {
+	font-size: .8125rem;
+    padding: .8rem,1rem;
+    border-radius: 8px;
+    border: 2px solid #5cdb95;
+    background-color: #5cdb95;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+	font-size: 0.8125rem;
+    font-weight: 900;
+
+	
+	
+}
+
+@media screen and (max-width: 991px) {
+	.btnReqDemo {
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		width: max-content;
+	}
+}
+
+.inputReqDemo {
+	height: 39px;
+	font-size: 0.8125rem;
+	border-radius: 8px;
+	border: 2px solid #5cdb95;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+/* .header.sticky {
+  background-color: #05386b !important;
+} */
+
+/* .header.navbar.navbar-light.bg-prussian-blue .navbar-toggler {
+	border: 1px solid white;
+}
+.header.navbar.navbar-light.bg-color-white .navbar-toggler {
+	border: 1px solid #12356a;
+} */
+
+.header.navbar.navbar-light .navbar-toggler {
+	border: none;
+}
+
+.header .navbar-toggler.collapsed .navbar-toggler-icon.icon-prussian-blue {
+	background-image: url(./images//hambugermenu.svg);
+	filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(44deg)
+		brightness(198%) contrast(105%);
+}
+.header .navbar-toggler.collapsed .navbar-toggler-icon.icon-white {
+	background-image: url(./images//hambugermenu.svg);
+}
+
+.header .navbar-toggler .navbar-toggler-icon.icon-prussian-blue,
+.header .navbar-toggler .navbar-toggler-icon.icon-white {
+	background-image: url(./images/cross.svg);
+}
+
+.header .navbar-toggler .navbar-toggler-icon.icon-prussian-blue {
+	filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(44deg)
+		brightness(198%) contrast(105%);
+}
+
+.bg-white.navbar-light .navbar-nav .nav-link,
+.bg-white.navbar-light .navbar-nav .nav-link:hover,
+.bg-white.navbar-light .navbar-nav .nav-link:any-link {
+	color: #12356a;
+}
+
+.navbar.bg-white .logo-heading {
+	color: #12356a;
+}
+
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link,
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link:hover {
+	color: #12356a !important;
+}
+
+.navbar.bg-prussian-blue .logo-heading {
+	color: #ffffff;
+}
+
+/* Header Sticky CSS*/
+
+.header.sticky.navbar {
+	background-color: #ffffff;
+}
+
+.header.sticky.navbar .logo-heading {
+	font-size: 26px;
+	font-weight: 500;
+	font: normal normal medium 26px/35px Gotham Rounded;
+	/* color: #ffffff; */
+}
+
+.header.navbar .logo-heading {
+	font-size: 26px;
+	font-weight: 500;
+	font: normal normal medium 26px/35px Gotham Rounded;
+	/* color: #12356a; */
+}
+
+.header.sticky.navbar .navbar-nav .nav-link {
+	color: #12356a;
+}
+
+/* .header.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+} */
+
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link:hover {
+	color: #ffffff;
+}
+
+.header.navbar .navbar-collapse.collapse.show.prussian-blue {
+	background-color: #12356a;
+}
+.header.navbar .navbar-collapse.collapse.show.white {
+	background-color: #12356a;
+}
+
+.header.navbar .navbar-collapse.collapse.show.white .nav-link {
+	color: #12356a;
+}
+
+/* .bg-white.navbar-light .navbar-collapse.collapse.show .navbar-nav .nav-link,
+.bg-white.navbar-light
+	.navbar-collapse.collapse.show
+	.navbar-nav
+	.nav-link:hover {
+	color: #ffffff;
+} */
+
+/* #responsive-navbar-nav {
+	animation: 2s all 3s ease-in-out;
+}
+
+#responsive-navbar-nav .nav-link {
+	animation: fadeIn 0.5s ease-in-out;
+	-webkit-animation: fadeIn 0.5s;
+	-moz-animation: fadeIn 0.5s;
+	-o-animation: fadeIn 0.5s;
+	-ms-animation: fadeIn 0.5s;
+} */
+/* 
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+} */
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* @media (max-width: 991px) {
+  nav.header.navbar.navbar-expand-lg.fixed-top {
+    background-color: #12356a !important;
+  }
+} */
+
+.navbar-toggler-icon.icon-white::before {
+	/* color: black; */
+	filter: invert(0%) sepia(91%) saturate(7464%) hue-rotate(41deg)
+		brightness(104%) contrast(107%);
+}
+
+.white.navbar-collapse .navbar-nav .nav-link,
+.white.navbar-collapse .navbar-nav .nav-link:focus,
+.white.navbar-collapse .navbar-nav .nav-link:hover {
+	color: #12356a;
+}
+
+.mobile-version.navbar-collapse.collapse.show {
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+.prussian-blue.mobile-version.navbar-collapse.collapse.show .heading {
+	/* color: #12356a; */
+	color: #ffffff;
+}
+
+.mobile-version.navbar-collapse.collapse.show .heading {
+	font-size: 1rem;
+	color: #ffffff;
+}
+
+.mobile-version.navbar-collapse.collapse.show .mobile-nav-link {
+	font-size: 1.5rem;
+    letter-spacing: 2px;
+    /* line-height: 3rem; */
+    font-weight: 300;
+    border-bottom: 1px solid;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.white.mobile-version.navbar-collapse.collapse.show .mobile-nav-link {
+	color: #ffffff;
+}
+.prussian-blue.mobile-version.navbar-collapse.collapse.show .mobile-nav-link {
+	color: #ffffff;
+}
+
+.white.desktop-version.navbar-collapse .nav-link {
+	font: normal normal 600 13px/20px Source Sans Pro;
+}
+
+/* For header toggle glitching*/
+
+.mobile-version.navbar-collapse .heading {
+	font-size: 1rem;
+	color: #12356a;
+}
+
+.mobile-version.navbar-collapse .mobile-nav-link {
+	font-size: 2.2rem;
+	line-height: 2rem;
+	text-decoration: none;
+	animation-delay: 0s;
+	font-weight: bold;
+}
+.white.mobile-version.navbar-collapse {
+	background-color: #12356a;
+}
+
+.white.mobile-version.navbar-collapse .mobile-nav-link {
+	color: #12356a;
+}
+
+.prussian-blue.mobile-version.navbar-collapse {
+	background-color: #12356a;
+}
+
+.prussian-blue.mobile-version.navbar-collapse .mobile-nav-link {
+	color: #ffffff;
+}
+
+/**/

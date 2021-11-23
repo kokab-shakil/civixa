@@ -1,0 +1,62 @@
+.btn.btn-green {
+	background-color: #5cdb95;
+}
+
+.btn.btnSize {
+	font-size: 0.8125rem;
+	border-radius: 8px;
+	width: 202px;
+	height: 46px;
+	/* min-height: 48px; */
+	/* box-shadow: 2px 4px 8px #00000029; */
+}
+
+/* .btn.btnSize.btn-medium {
+	max-width: 210px;
+} */
+.btn.btnBorder{
+	border: 2px solid #12356a;
+}
+.btn.btnTextColor{
+	color: #12356a;
+}
+.btn.btn-white {
+	background-color: white;
+}
+
+.btn.btn-atomic-tangerine {
+	background-color: #ff9171;
+}
+/* 
+.btn.btnSize.btn-small {
+	max-width: max-content;
+} */
+
+/* .btn.btnSize {
+	box-shadow: 2px 4px 8px #00000029;
+} */
+
+.btn.btn-prussian-blue {
+	background-color: #12356a;
+}
+
+.btn.btnSize.service-carousel-button {
+	border: 1px solid #12356a;
+	box-shadow: none;
+}
+@media screen and (max-width: 1024px) {
+	.btn.btnSize {
+	
+	width: 208px;
+	height: 39px;
+	
+}
+}
+@media screen and (max-width: 600px) {
+	.btn.btnSize {
+	
+	width: 140px;
+	height: 33px;
+	
+}
+}

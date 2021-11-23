@@ -1,0 +1,98 @@
+.text-atomic-tangerine {
+	color: #ff9171;
+}
+
+.bg-atomic-tangerine {
+	background-color: ff9171;
+}
+
+.covidCardClass {
+	max-width: 560px;
+}
+
+.covidModels .btn.btnSize {
+	box-shadow: 2px 4px 8px #00000029;
+	border: 2px solid #5cdb95;
+	border-radius: 25px;
+}
+
+.covidModelsCard {
+	min-height: 100%;
+	/* min-height: 401px; */
+}
+
+.covidTab .nav.nav-pills {
+	border: 2px solid #12356a;
+	border-radius: 20px;
+}
+
+.covidTab .nav.nav-pills .nav-item {
+	font-size: 1rem;
+	padding: 0px;
+	text-align: center;
+}
+
+.covidTab .nav.nav-pills .nav-link {
+	background-color: transparent;
+	color: #12356a;
+	padding: 4px 24px;
+	font-weight: bold;
+}
+
+.covidTab .nav.nav-pills .nav-link.active {
+	background-color: #12356a;
+	color: white;
+	border-radius: 20px;
+}
+.covidcarousel .InfiniteCarouselSlide img {
+	width: 100%;
+}
+
+.covidcarousel .InfiniteCarouselFrame {
+	width: 90%;
+	margin-left: auto;
+}
+
+.covidcarousel li.InfiniteCarouselSlide {
+	display: flex !important;
+	justify-content: start;
+}
+
+.covidcarousel .InfiniteCarouselArrow {
+	top: 115%;
+}
+
+.covidcarousel .InfiniteCarouselArrowPrev {
+	right: 20%;
+	left: auto;
+}
+
+.covidcarousel .InfiniteCarouselArrowNext {
+	right: 18%;
+}
+
+.covidModelsCard .icon {
+	width: 60px;
+	height: 60px;
+}
+.covidModelsCard {
+	box-shadow: 0px 5px 20px #00000029;
+}
+
+.bottomLeftDots {
+	position: absolute;
+	bottom: -28px;
+	left: -28px;
+}
+
+.topRightDots {
+	position: absolute;
+	top: -40px;
+	right: -40px;
+}
+
+.detaildashboarddots {
+	position: absolute;
+	bottom: -60px;
+	left: -30px;
+}
