@@ -16,3 +16,10 @@
 	padding: 2rem 1rem;
 	padding-left: 2rem;
 }
+@media only screen and (max-width: 800px) {
+ .card.serice-carousel-card {
+	height: auto;
+	
+}
+
+}
