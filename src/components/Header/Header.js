@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
-import civixaWhite from "./images/civixaWhite.svg";
-import civixa from "./images/civixa.svg";
+import civixaWhite from "../../images/logowhite.png";
+import civixa from "../../images/civixa.png";
 import { useHistory } from "react-router-dom";
 
 import "./Header.css";
@@ -85,11 +85,10 @@ export default function Header({ headercolor }) {
 						<img
 							alt="Civixa"
 							src={logoColor}
-							width="46"
-							height="50"
-							className="d-inline-block align-top icon-white"
+							
+							className="d-inline-block align-top icon-white logo"
 						/>
-						<span
+						{/* <span
 							className={`pl-4 logo-heading text-uppercase ${
 								color === "white"
 									? "text-prussian-blue"
@@ -97,7 +96,7 @@ export default function Header({ headercolor }) {
 							}`}
 						>
 							Civixa
-						</span>
+						</span> */}
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle

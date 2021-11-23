@@ -12,6 +12,7 @@
 	/* color: #ffffff; */
 	font: normal normal 600 13px/20px Source Sans Pro;
 }
+
 .pl{
 	padding-left: 6.5vw;
 	padding-right: 8vw;
@@ -51,12 +52,20 @@
 	
 	
 }
+.logo{
+	width: 176px;
+}
 
 @media screen and (max-width: 991px) {
 	.btnReqDemo {
 		border-top-left-radius: 8px;
 		border-bottom-left-radius: 8px;
 		width: max-content;
+	}
+}
+@media screen and (max-width: 600px) {
+	.logo {
+		width: 124px
 	}
 }
 

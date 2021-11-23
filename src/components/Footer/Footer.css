@@ -85,7 +85,9 @@
 
 }
 
-
+.logoFooter{
+  width: 124px;
+}
 @media only screen and (max-width: 1050px) {
  
 .borderRight{

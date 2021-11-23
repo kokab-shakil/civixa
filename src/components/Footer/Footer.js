@@ -9,7 +9,7 @@ import twitter from "../../images/twitter.svg";
 import linkedin from "../../images/linkedin.svg";
 import chile from "../../images/footer/chile.png";
 import nest from "../../images/footer/io.png";
-import logoFooter from "../../images/footer/logo-footer.svg";
+import logoFooter from "../../images/civixa.png";
 // import nvedia from "../../images/footer/Nvidia.png";
 import nvedia from "../../images/footer/Nvidia.png";
 import pasha from "../../images/footer/pasha.png";
@@ -78,7 +78,7 @@ export const Footer = () => {
           <Row className="d-flex pBtm align-items-end justify-content-center justify-content-md-between ">
             <Col xs={4} sm={6} md={4} className=" d-flex pl-2 pt-2 order-md-first  ">
               <img src={logoFooter} className='logoFooter' alt="Logo Footer" />
-              <Heading
+              {/* <Heading
                 HeadingText="CIVIXA"
                 headingClass="font-weight-normal logoFontxs mb-0 text-left"
                 para
@@ -86,7 +86,7 @@ export const Footer = () => {
                 // paraText="Enabling AI Transformation "
                 paraClass="font-weigt-bold text-xxs w-max  mb-0  pb-3"
                 pl=" pl-1 pl-md-3 pl-sm-3  pl-lg-3"
-              />
+              /> */}
             </Col>
             <Col xs={8} sm={6} md={6}  className={`p-0 `}>
             <Nav	className={`mr-auto pl-1 pl-md-5 align-items-lg-center d-flex justify-content-end`}>
