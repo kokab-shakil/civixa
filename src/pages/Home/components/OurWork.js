@@ -175,7 +175,7 @@ export const OurWork = ({ classes }) => {
 						HeadingText="FLEXIBILITY"
 						headingClass="xs-fontSize-boldHeading2"
 						para
-						paraText="We are extremely flexible as far as the file format (e.g. jpeg, png,avi,mp4) is concerned"
+						paraText="We are extremely flexible as far as the file format (e.g. jpeg, png, avi, mp4) is concerned."
 						paraClass="text-center text-lg-left"
 					/>
 				</Col>

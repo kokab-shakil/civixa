@@ -31,7 +31,7 @@ import boxSide from "../../../../images/annotations/sideBox.png";
 import alvin from "../../../../images/annotations/alvin.png";
 import meeting from "../../../../images/annotations/meeting.png";
 
-import Car from "../../../../images/car.svg";
+import polygons from "../../../../images/annotations/transcription.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -282,7 +282,7 @@ const annotationChildData = [
 				twoButton
 				cardImage={SegmentationAnnotation}
 				cardClass="serice-carousel-card"
-				headingText="Semantic segmentation"
+				headingText="Semantic Segmentation"
 				paraText={["If you have a pixel in your image or video frame, we have our eyes on it. With simple and focused ai annotation handling, we will offer Semantic segmentation.", <br />, <span style={{ color: "#12356a" }}> Use cases:</span>, <br />, ]}
 				list={['Geo-sensing for land usage', 'Precision agriculture', 'Industrial inspection', 'Medical imaging analysis']}	
 				/>
@@ -292,13 +292,13 @@ const annotationChildData = [
 		icon: SegmentationBlue,
 	},
 	{
-		value: "bounding box",
+		value: "bounding Box",
 		component: (
 			<TabData
 				twoButton
 				cardImage={boundingBox}
 				cardClass="serice-carousel-card"
-				headingText="Bouding Box"
+				headingText="Bounding Box"
 				paraText={["With our bounding box technique, you can detect any small or large defect in your dataset. Our data annotation specialist can distinguish the tiniest of objects from each other. It is a simple process where we follow every step towards precision.", <br />, <span style={{ color: "#12356a" }}> Use cases:</span>]}
 				list={['Defect detection', 'Object detection for eCommerce', 'Drone training', 'Robot training']}	
 				
@@ -356,7 +356,7 @@ const annotationChildData = [
 		component: (
 			<TabData
 				twoButton
-				cardImage={Car}
+				cardImage={polygons}
 				cardClass="serice-carousel-card"
 				headingText="Polygons"
 				paraText={["With our precise polygons, you can easily identify the small-sized objects, even from space. Our labeled data in machine learning is immaculate. We use this technique for training highly precise application models.", <br />, <span style={{ color: "#12356a" }}> Use cases:</span>]}

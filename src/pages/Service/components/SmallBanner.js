@@ -20,7 +20,7 @@ export const SmallBanner = ({ classes }) => {
 			<Col md={8} sm={12} xs={12}>
 				<Heading
 					headingClass="font-weight-900 text-left"
-					HeadingText="Accelerate the Development of AI Applications"
+					HeadingText="Accelerate The Development Of AI Applications"
 					para
 					paraText="Develop highly accurate AI models with the help of our data collection and data annotation services. Request a demo now for a complete tour of our processes."
 				>

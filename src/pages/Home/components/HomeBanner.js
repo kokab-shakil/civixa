@@ -28,7 +28,7 @@ export default function HomeBanner({ classes }) {
 						"text-lg font-weight-900 d-flex flex-wrap homebanner-heading"
 					}
 					HeadingText={[
-						<span >
+						<span className="pr-1" >
 							Enabling AI
 						</span>,
 						

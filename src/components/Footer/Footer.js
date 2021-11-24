@@ -132,11 +132,16 @@ export const Footer = () => {
                 Proudly supported by
               </h6>
              <div className="d-flex flex-wrap row justify-content-between ">
-                <div className="d-flex flex-wrap logo-con-xs ">
-                <img className='footerLogo' src={nvedia} alt="Facebook Logo" />
-                <img className='footerLogo' src={chile} alt="LinkedIn Logo" />
-                <img className='footerLogo' src={pasha} alt="LinkedIn Logo" />
-                <img className='footerLogo' src={nest} alt="LinkedIn Logo" />
+              <div className="d-flex flex-wrap logo-con-xs ">
+                <a style={{textDecoration: 'none' }} href="https://www.nvidia.com/en-us/" target="_blank"> <img className='footerLogo' src={nvedia} alt="Facebook Logo" /> </a>
+                <a style={{textDecoration: 'none' }} href="https://startupchile.org/" target="_blank"> <img className='footerLogo' src={chile} alt="LinkedIn Logo" /> </a>
+                <a style={{textDecoration: 'none' }} href="https://www.pasha.org.pk/" target="_blank"> <img className='footerLogo' src={pasha} alt="LinkedIn Logo" /> </a>
+                <a style={{textDecoration: 'none' }} href="https://thenestio.com/" target="_blank"> <img className='footerLogo' src={nest} alt="LinkedIn Logo" /> </a>
+                
+                
+                
+                
+                
               </div>
               <div className="d-flex align-items-center flex-wrap pb-2 col-lg-auto col-md-auto col-sm-auto col-12 ">
                 <a style={{textDecoration: 'none' }} href="https://www.facebook.com/civixaai" target="_blank"> <img className='footerSocialLogo' src={fb} alt="Facebook Logo" /> </a>

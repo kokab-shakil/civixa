@@ -29,7 +29,7 @@ export default function PreTrainedModels({ classes }) {
 						<span className="position-relative">
 							<span className="pr-2 underlined">Pre-trained</span>
 						</span>,
-						"models",
+						"Models",
 					]}
 					headingClass="font-weight-900 xs-fontSize-boldHeading text-center text-md-left"
 					para
@@ -70,7 +70,7 @@ export default function PreTrainedModels({ classes }) {
 							CardClasses={
 								"d-flex flex-column align-items-center justify-content-around mr-3 mb-4 cardList"
 							}
-							HeadingText="Autonomous Mobility"
+							HeadingText="Loan Prediction"
 							headingClass="card-heading w-min-content text-center"
 						/>
 						<CustomCard
@@ -106,7 +106,7 @@ export default function PreTrainedModels({ classes }) {
 						<span className="position-relative">
 							<span className="pr-2 underlined">Pre-trained</span>
 						</span>,
-						"models",
+						"Models",
 					]}
 					headingClass="font-weight-900 text-left "
 					para

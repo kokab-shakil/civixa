@@ -8,19 +8,19 @@ import assited from "../../../images/assisted.png";
 const data = [
 	{
 		icon: assited,
-		HeadingText: "Precision in Annotation",
+		HeadingText: "Precision In Annotation",
 		paraText:
 			"We understand that pixel-perfect data annotation services are the foundation of any efficiently trained AI model. We make sure that the resources working on your data are well trained.",
 	},
 	{
 		icon: manPower,
-		HeadingText: "50% less manpower",
+		HeadingText: "50% Less Manpower",
 		paraText:
 			"Due to our intelligent AI-tools and algorithms, we provide both semi-automated and fully-automated annotations. We are one of the data labeling companies who can reduce the required manpower to 50%.",
 	},
 	{
 		icon: Accuracy,
-		HeadingText: "99.99% accuracy",
+		HeadingText: "99.99% Accuracy",
 		paraText:
 			"We maintain high-quality standards for our AI algorithms. Once a data set is processed, it is validated by domain experts through random sampling to weed out any imperfections.With our dedicated efforts, we increase efficiency by up to 99.99%.",
 	},

@@ -20,7 +20,7 @@ export default function SmallBanner({ classes }) {
 						<span className="position-relative pl-2">
 							<span className="pr-2 underlined">Civixa</span>
 						</span>
-						<span>your competitive advantage</span>
+						<span>Your Competitive Advantage</span>
 					</h1>
 				) : (
 					<h1 className="d-flex text-white font-weight-900 xs-fontSize-boldHeading text-medium text-center text-md-left">

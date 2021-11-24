@@ -10,10 +10,11 @@ export default function CustomButton({
 	handlebtn,
 	marginBottom,
 	border,
-	btnTextColor
+	btnTextColor,
+	type
 }) {
 	return (
-		<Button
+		<Button type={type}
 			variant={btnColor}
 			size={`${btnSize ? btnSize : "small"}`}
 			className={`customButton text-uppercase font-weight-900 btnSize ${

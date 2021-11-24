@@ -57,8 +57,8 @@ export const ContactDetails = ({ classes }) => {
 			// message: msg,
       })
 		.then(function (response) {
-        history.push("/");
-        window.location.reload();
+        // history.push("/");
+        // window.location.reload();
       })
       .catch(function (error) {
         console.log(error);
@@ -127,20 +127,23 @@ export const ContactDetails = ({ classes }) => {
 					paraClass="text-center text-prussian-blue"
 					paraText="Enter your email address and we’ll connect you with the right person."
 				>
+					<form className='d-flex flex-column justify-content-center' onSubmit={handleSubmit}>
 					<input
 						class="form-control form-control-lg my-4"
-						type="text"
+						type="email"
 						placeholder=""
 						value={UserEmail}
+						required
 						onChange={handleEmailInput}
 					></input>
 					<CustomButton
 						btnColor="prussian-blue"
 						btnClasses="text-white m-auto"
 						btnText="Get Started"
-						handlebtn={handleSubmit}
+						type="email"
 						// btnSize="small"
 					/>
+					</form>
 					
 					<MyVerticallyCenteredModal
                                  show={modalShow}

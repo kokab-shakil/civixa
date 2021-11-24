@@ -14,9 +14,6 @@ const axios = require("axios");
 
 
 
-
-
-
 export default function Header({ headercolor }) {
 	const [headersticky, setHeaderSticky] = useState(false);
 	const [expanded, setExpanded] = useState(false);
@@ -200,22 +197,26 @@ export default function Header({ headercolor }) {
 									Contact Us
 								</Link>
 							</Nav>
+								<form onSubmit={handleEmailSubmit}>
 							<Nav className="d-flex pl-lg-0 pl-5 align-items-lg-center">
+								
 								<input
 									type="email"
 									className="inputReqDemo pl-3 d-none d-lg-block"
 									placeholder="hello@civixa.com"
 									value={inputValue}
 									onChange={hanldeInputChange}
+									required
 								/>
 								<button
 									className="btnReqDemo py-2 px-4 mx-3 mx-md-0 my-4 text-white"
-									onClick={handleEmailSubmit}
+									type='submit'
 								>
 									Request Demo
 								</button>
+							
 								</Nav>
-								
+									</form>
 								<MyVerticallyCenteredModal
                                  show={modalShow}
                                   onHide={() => setModalShow(false)}
