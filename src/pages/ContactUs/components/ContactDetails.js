@@ -34,7 +34,7 @@ const data = [
 export const ContactDetails = ({ classes }) => {
 	const history = useHistory();
 	const [UserEmail, setEmail] = useState("");
-     const [msgs, setMsg] = useState('');
+     const [msgs, setMsg] = useState('Hello ALVEENA! You have received a new Email from your website CIVIXA.AI. Process it now!');
 	const [width] = useWindowSize();
 
 	const handleEmailInput = (e) => {
@@ -47,7 +47,7 @@ export const ContactDetails = ({ classes }) => {
     let email = UserEmail;
     let msg = msgs
     axios
-		.post("http://localhost:5000/register", {
+		.post("https://civixa-backened.herokuapp.com/register", {
 		 
 			email: email,
 			message: msg,
