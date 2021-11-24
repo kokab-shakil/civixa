@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import { Container, Nav, Navbar, NavLink ,Modal,Button } from "react-bootstrap";
 import civixaWhite from "../../images/logowhite.png";
 import civixa from "../../images/civixa.png";
 import { useHistory } from "react-router-dom";
@@ -9,15 +9,26 @@ import { Link } from "react-router-dom";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import useWindowSize from "../../WindowSize";
 import CustomButton from "../CustomButton/CustomButton";
+import MyVerticallyCenteredModal from "../modal";
+const axios = require("axios");
+
+
+
+
+
 
 export default function Header({ headercolor }) {
 	const [headersticky, setHeaderSticky] = useState(false);
 	const [expanded, setExpanded] = useState(false);
 	const [inputValue, setInputValue] = useState("");
+	const [UserEmail, setEmail] = useState("");
 	const [logoColor, setLogoColor] = useState(
 		headercolor == "prussian-blue" ? civixaWhite : civixa
 	);
+
 	const [color, setColor] = useState(headercolor);
+	const [modalShow, setModalShow] = React.useState(false);
+
 	const history = useHistory();
 	const [width] = useWindowSize();
 
@@ -46,16 +57,38 @@ export default function Header({ headercolor }) {
 
 	const hanldeInputChange = (e) => {
 		setInputValue(e.target.value);
+		setEmail(e.target.value)
 	};
 
-	const handleEmailSubmit = () => {
-		setTimeout(() => {
-			history.push("/contact");
-			setInputValue("");
-			alert("Email Submited");
-		}, 200);
+	// const handleEmailSubmit = () => {
+	// 	setTimeout(() => {
+	// 		history.push("/contact");
+	// 		setInputValue("");
+	// 		alert("Email Submited");
+	// 	}, 200);
+	// };
+    
+	const handleEmailSubmit = (e) => {
+    e.preventDefault();
+    
+   
+    let email = UserEmail;
+    // let msg = msgs
+    axios
+		.post("https://civixa-backened.herokuapp.com/register", {
+		 
+			email: email,
+			// message: msg,
+      })
+		.then(function (response) {
+		setModalShow(true)
+		setInputValue("");
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
 	};
-
+	
 	return (
 		<Navbar
 			// fixed="top"
@@ -181,7 +214,12 @@ export default function Header({ headercolor }) {
 								>
 									Request Demo
 								</button>
-							</Nav>
+								</Nav>
+								
+								<MyVerticallyCenteredModal
+                                 show={modalShow}
+                                  onHide={() => setModalShow(false)}
+                                  />
 						</>
 					)}
 				</Navbar.Collapse>

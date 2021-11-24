@@ -54,13 +54,13 @@ const packagesDetails = [
 	// 	package: "$0.05/Image + $0.05/Point",
 	// },
 	{
-		bg: "bg-white",
+		bg: "bg-lightgray",
 		icon: polylines,
 		headingText: "Polylines",
 		package: "$0.03/annotation",
 	},
 	{
-		bg: "bg-lightgray",
+		bg: "bg-white",
 		icon: Polygons,
 		headingText: "Polygons",
 		package: "$0.1/annotation",

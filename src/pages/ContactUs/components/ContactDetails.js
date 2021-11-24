@@ -8,6 +8,7 @@ import tick from "../../../images/tick.svg";
 import useWindowSize from "../../../WindowSize";
 import { Link, useHistory } from "react-router-dom";
 import "./ContactDetails.css";
+import MyVerticallyCenteredModal from "../../../components/modal";
 const axios = require("axios");
 
 
@@ -34,23 +35,26 @@ const data = [
 export const ContactDetails = ({ classes }) => {
 	const history = useHistory();
 	const [UserEmail, setEmail] = useState("");
-     const [msgs, setMsg] = useState('Hello ALVEENA! You have received a new Email from your website CIVIXA.AI. Process it now!');
+	const [modalShow, setModalShow] = React.useState(false);
+    //  const [msgs, setMsg] = useState('Hello ALVEENA! You have received a new Email from your website CIVIXA.AI. Process it now!');
 	const [width] = useWindowSize();
 
 	const handleEmailInput = (e) => {
 		setEmail(e.target.value)
 	}
 	const handleSubmit = (e) => {
+	 setModalShow(true)
     e.preventDefault();
 
    
     let email = UserEmail;
-    let msg = msgs
+    // let msg = msgs
+		
     axios
 		.post("https://civixa-backened.herokuapp.com/register", {
 		 
 			email: email,
-			message: msg,
+			// message: msg,
       })
 		.then(function (response) {
         history.push("/");
@@ -59,7 +63,8 @@ export const ContactDetails = ({ classes }) => {
       .catch(function (error) {
         console.log(error);
       });
-  };
+	};
+
 	return (
 		<Row
 			className={`${classes} position-relative justify-content-lg-start`}
@@ -136,6 +141,11 @@ export const ContactDetails = ({ classes }) => {
 						handlebtn={handleSubmit}
 						// btnSize="small"
 					/>
+					
+					<MyVerticallyCenteredModal
+                                 show={modalShow}
+                                  onHide={() => setModalShow(false)}
+                                  />
 				</CustomCard>
 			</Col>
 			{/* <Col sm={12} md={7} className="bg-prussian-blue">
