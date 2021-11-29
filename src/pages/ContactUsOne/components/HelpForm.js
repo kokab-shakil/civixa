@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Heading from "../../../components/Heading";
-import teamcore from "../../../images/home/teamcore.png";
+import tars from "../../../images/home/tarsse.svg";
+import forc from "../../../images/home/forc.svg";
+import teamcore from "../../../images/home/teamC.svg";
 
 const data = [
   {
@@ -25,7 +27,7 @@ export const HelpForm = () => {
         headingClass="text-prussian-blue"
         HeadingText="How can we help?"
         para
-        paraClass="text-prussian-blue w-70 text-center text-md-left"
+        paraClass="text-prussian-blue w-100 text-center text-md-left"
         paraText="We love supporting you. Any way you choose. Please select a topic below related to your inquiry. If you don’t find what you need, fill out our contact form."
       />
       {data.map((item) => {
@@ -47,8 +49,8 @@ export const HelpForm = () => {
         <h6 className="text-gray text-uppercase">Trusted by:</h6>
         <div className="d-flex flex-wrap justify-content-center justify-content-lg-start pt-2">
           <img src={teamcore} className="pr-2" alt="TeamCore" />
-          <img src={teamcore} className="pr-2" alt="Twitter Logo" />
-          <img src={teamcore} className="pr-2" alt="LinkedIn Logo" />
+          <img src={forc} className="pr-2" alt="Twitter Logo" />
+          <img src={tars} className="pr-2" alt="LinkedIn Logo" />
         </div>
       </div>
     </>

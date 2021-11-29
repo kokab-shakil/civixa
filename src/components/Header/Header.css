@@ -173,7 +173,15 @@
 .header.navbar .navbar-collapse.collapse.show.white .nav-link {
 	color: #12356a;
 }
-
+.headerPadding{
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+	padding: 0vw 8vw;
+}
 /* .bg-white.navbar-light .navbar-collapse.collapse.show .navbar-nav .nav-link,
 .bg-white.navbar-light
 	.navbar-collapse.collapse.show
@@ -332,3 +340,13 @@
 }
 
 /**/
+/* @media only screen and (max-width: 1100px) {
+ .headerPadding{	
+	padding: 0vw 5vw;
+}
+} */
+/* @media screen and (max-width: 1100px) and (min-width: 600px){
+.padding-all {
+    padding: 5vw 5vw;
+}
+} */

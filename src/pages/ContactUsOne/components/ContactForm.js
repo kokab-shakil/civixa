@@ -19,16 +19,26 @@ export const ContactForm = () => {
             headingClass="text-small font-weight-bold pb-4"
             HeadingText="Contact information"
           >
-            <SideIcon
+            {/* <SideIcon
               sideIconClass="mb-3"
               HeadingText="San Sebastian 2957, Las Condes, Santiago"
-              headingClass="text-normal w-70 pl-4"
+              headingClass="text-normal w-70 pl-4 "
               iconClass="pt-2"
               icon={work}
-            />
+            /> */}
+            <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={work}>
+              <a
+                className="text-prussian-blue text-normal w-70 pl-4 pr-5"
+                target="_top"
+                href="mailto:hello@civixa.com"
+              >
+                San Sebastian 2957,<br/>
+                <span className="pl-4"> Las Condes, Santiago</span>
+              </a>
+            </SideIcon>
             <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={email}>
               <a
-                className="data-heading text-prussian-blue text-normal w-70 pl-4"
+                className="text-prussian-blue text-normal w-70 pl-4"
                 target="_top"
                 href="mailto:hello@civixa.com"
               >
@@ -37,7 +47,7 @@ export const ContactForm = () => {
             </SideIcon>
             <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={phone}>
               <a
-                className="data-heading text-prussian-blue text-normal w-70 pl-4"
+                className=" text-prussian-blue text-normal w-70 pl-4"
                 target="_top"
                 href="tel:+56988938875"
               >

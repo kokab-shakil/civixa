@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../CustomButton/CustomButton";
 import "./FormInput.css";
+import { Button } from "react-bootstrap";
 
 export const FormInput = () => {
   const setActive = (el, active) => {
@@ -113,14 +114,16 @@ export const FormInput = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-sm text-center">
-          <CustomButton
-            btnClasses="btn-block form-button text-prussian-blue"
+        <div className="col-sm d-grid gap-2 text-center">
+        <Button variant='green' className="customButton w-100 form-button text-prussian-blue text-uppercase font-weight-900"> Submit</Button>
+
+        </div>
+         {/* <CustomButton
+            btnClasses=" form-button text-prussian-blue"
             btnText="Submit"
             btnColor="green"
-            btnSize="lg"
-          />
-        </div>
+            // btnSize="fill"
+          /> */}
       </div>
     </form>
   );

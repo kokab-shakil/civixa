@@ -24,7 +24,7 @@ export default function SectionOne({ classes }) {
 			<Col
 				xs={12}
 				md={6}
-				className={"position-relative p-0 d-none d-md-block"}
+				className={"position-relative p-0 d-none zIndex d-md-block"}
 			>
 				{ready === false && (
 					<img

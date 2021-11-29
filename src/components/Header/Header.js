@@ -99,9 +99,9 @@ export default function Header({ headercolor }) {
 				color === "white" ? "bg-color-white" : "bg-prussian-blue"
 			} ${headersticky ? "sticky" : ""}`}
 		>
-			<div className="container-lg p-0 container-fluid">
+			<div className="headerPadding ">
 				<Navbar.Brand
-					className={`${width >= 320 ? "padding-left" : "pl-3"} pl-lg-0`}
+					className={`${width >= 320 ? "" : "pl-3"} pl-lg-0`}
 				>
 					<Link
 						to="/"
@@ -191,7 +191,7 @@ export default function Header({ headercolor }) {
 								<Link
 									onClick={() => setExpanded(false)}
 									eventKey="4"
-									to="/contact"
+									to="/contact-01"
 									className="px-3 nav-link"
 								>
 									Contact Us

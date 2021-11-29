@@ -32,7 +32,7 @@ export default function Home({ handleHeaderColor }) {
 				// classes={""}
 			>
 				<SectionOne
-					classes={`d-flex align-items-stretch justify-content-center h-100 padding-all`}
+					classes={`d-flex align-items-stretch justify-content-center z-indexSec h-100 padding-all`}
 				/>
 			</CustomSection>
 			<CustomSection height="h-auto" bgColor="white" classes="">
