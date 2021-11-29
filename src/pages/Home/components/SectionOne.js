@@ -66,7 +66,7 @@ export default function SectionOne({ classes }) {
 
 					</p>
 				</div>
-				<Row className="data-square-icon  d-flex justify-content-between align-items-center pr-md-0 pr-lg-5 pt-4 m-0">
+				<Row className="data-square-icon  d-flex justify-content-between align-items-center pr-md-3 pr-lg-5 pt-4 m-0">
 					{data.map((item, key) => {
 						return (
 							<div
