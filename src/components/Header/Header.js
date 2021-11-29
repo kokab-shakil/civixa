@@ -191,7 +191,7 @@ export default function Header({ headercolor }) {
 								<Link
 									onClick={() => setExpanded(false)}
 									eventKey="4"
-									to="/contact-01"
+									to="/contact"
 									className="px-3 nav-link"
 								>
 									Contact Us
