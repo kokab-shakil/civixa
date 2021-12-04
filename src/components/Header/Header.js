@@ -99,9 +99,9 @@ export default function Header({ headercolor }) {
 				color === "white" ? "bg-color-white" : "bg-prussian-blue"
 			} ${headersticky ? "sticky" : ""}`}
 		>
-			<div className="headerPadding ">
+				<div className="container-lg p-0 container-fluid">
 				<Navbar.Brand
-					className={`${width >= 320 ? "" : "pl-3"} pl-lg-0`}
+					className={`${width >= 320 ? "padding-left" : "pl-3"} pl-lg-0`}
 				>
 					<Link
 						to="/"
@@ -115,7 +115,7 @@ export default function Header({ headercolor }) {
 						<img
 							alt="Civixa"
 							src={logoColor}
-							
+						
 							className="d-inline-block align-top icon-white logo"
 						/>
 						{/* <span
@@ -196,6 +196,14 @@ export default function Header({ headercolor }) {
 								>
 									Contact Us
 								</Link>
+								<Link
+									onClick={() => setExpanded(false)}
+									eventKey="4"
+									to="/about"
+									className="px-3 nav-link"
+								>
+									About Us
+								</Link>
 							</Nav>
 								<form onSubmit={handleEmailSubmit}>
 							<Nav className="d-flex pl-lg-0 pl-5 align-items-lg-center">
@@ -245,7 +253,7 @@ const MobileVersion = ({ setExpanded }) => {
                    of pre-requisite services for the training of any AI-model.
 					</h3>
 					<h3 className="headingWork">
-						OUR WORK
+						CIVIXA.AI
 					</h3>
 				</Nav>
 				<Link
@@ -284,7 +292,7 @@ const MobileVersion = ({ setExpanded }) => {
 				>
 					Services
 				</Link>
-				{/* <Link
+				<Link
 					onClick={() =>
 						setTimeout(() => {
 							setExpanded(false);
@@ -292,10 +300,10 @@ const MobileVersion = ({ setExpanded }) => {
 					}
 					eventKey="5"
 					to="/covid"
-					className="px-3 mobile-nav-link"
+					className="mx-3 pb-1 mb-4 mobile-nav-link"
 				>
-					Covid
-				</Link> */}
+					About Us
+				</Link>
 				<Link
 					onClick={() =>
 						setTimeout(() => {
