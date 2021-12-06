@@ -80,6 +80,11 @@ p {
 	font-size: 35px;
 	/* word-break: break-word; */
 }
+.about-heading {
+	font-weight: 900;
+	font-size: 38px;
+	/* word-break: break-word; */
+}
 
 /* @media screen and (max-width: 720px) {
 	.data-heading {
@@ -345,6 +350,9 @@ font-size: 1rem;
 	color: #12356a;
 	font-size: 9px;
 }
+.headingXtraInfo{
+	color: black
+}
 
 
 @media screen and (max-width: 900px) {
@@ -374,6 +382,9 @@ font-size: 1rem;
 }
 .padding-service{
 	padding: 5vw 5vw;
+}
+.padding-about{
+	padding: 4vw 11vw;
 }
 /* end */
 
@@ -430,6 +441,12 @@ font-size: 10px;
 }
 .padding-Footer{
 	padding: 1vw 5vw;
+}
+.padding-about{
+	padding: 5vw 5vw;
+}
+.about-heading{
+	font-size: 19px;
 }
 .underlined:before {
 	

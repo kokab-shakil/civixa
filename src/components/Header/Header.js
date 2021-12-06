@@ -299,7 +299,7 @@ const MobileVersion = ({ setExpanded }) => {
 						}, 200)
 					}
 					eventKey="5"
-					to="/covid"
+					to="/about"
 					className="mx-3 pb-1 mb-4 mobile-nav-link"
 				>
 					About Us

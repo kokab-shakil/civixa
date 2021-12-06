@@ -19,7 +19,11 @@ export default function Heading({
 	subHeading,
 	children,
 	flex,
-	pl
+	pl,
+	founded,
+	experience,
+	infoClass,
+	lead
 }) {
 	return (
 		<>
@@ -47,7 +51,14 @@ export default function Heading({
 				)}
 			</div>
 			{para ? <p className={paraClass}>{paraText}</p> : null}
+			{infoClass ? <><p className={`${infoClass} headingXtraInfo font-weight-bold` }>{ experience}</p>
+			<p className={`${infoClass} headingXtraInfo `}>{founded}</p>
+			<p className={`${infoClass} headingXtraInfo `}>{lead}</p></>: null}
 			{children}
+			
+			
+			
+           
 		</>
 	);
 }
