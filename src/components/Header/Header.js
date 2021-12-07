@@ -10,6 +10,7 @@ import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import useWindowSize from "../../WindowSize";
 import CustomButton from "../CustomButton/CustomButton";
 import MyVerticallyCenteredModal from "../modal";
+
 const axios = require("axios");
 
 
@@ -196,14 +197,14 @@ export default function Header({ headercolor }) {
 								>
 									Contact Us
 								</Link>
-								<Link
+								{/* <Link
 									onClick={() => setExpanded(false)}
 									eventKey="4"
 									to="/about"
 									className="px-3 nav-link"
 								>
 									About Us
-								</Link>
+								</Link> */}
 							</Nav>
 								<form onSubmit={handleEmailSubmit}>
 							<Nav className="d-flex pl-lg-0 pl-5 align-items-lg-center">
@@ -292,7 +293,7 @@ const MobileVersion = ({ setExpanded }) => {
 				>
 					Services
 				</Link>
-				<Link
+				{/* <Link
 					onClick={() =>
 						setTimeout(() => {
 							setExpanded(false);
@@ -303,7 +304,7 @@ const MobileVersion = ({ setExpanded }) => {
 					className="mx-3 pb-1 mb-4 mobile-nav-link"
 				>
 					About Us
-				</Link>
+				</Link> */}
 				<Link
 					onClick={() =>
 						setTimeout(() => {
