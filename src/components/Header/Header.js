@@ -26,10 +26,8 @@ export default function Header({ headercolor }) {
 
 	const [color, setColor] = useState(headercolor);
 	const [modalShow, setModalShow] = React.useState(false);
-
 	const history = useHistory();
 	const [width] = useWindowSize();
-
 	useEffect(() => {
 		const scrollCallBack = window.addEventListener("scroll", () => {
 			if (window.pageYOffset > 0) {
@@ -69,7 +67,7 @@ export default function Header({ headercolor }) {
 	const handleEmailSubmit = (e) => {
     e.preventDefault();
     
-   
+     setModalShow(true)
     let email = UserEmail;
     // let msg = msgs
     axios
@@ -79,7 +77,7 @@ export default function Header({ headercolor }) {
 			// message: msg,
       })
 		.then(function (response) {
-		setModalShow(true)
+		
 		setInputValue("");
       })
       .catch(function (error) {
@@ -192,7 +190,7 @@ export default function Header({ headercolor }) {
 								<Link
 									onClick={() => setExpanded(false)}
 									eventKey="4"
-									to="/contact"
+									to="/contact-01"
 									className="px-3 nav-link"
 								>
 									Contact Us
@@ -312,7 +310,7 @@ const MobileVersion = ({ setExpanded }) => {
 						}, 200)
 					}
 					eventKey="4"
-					to="/contact"
+					to="/contact-01"
 					className="mx-3 pb-1 mb-4 mobile-nav-link"
 				>
 					Contact Us
