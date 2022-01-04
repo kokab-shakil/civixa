@@ -37,7 +37,7 @@ export const HelpForm = () => {
       />
       {data.map((item) => {
         return (
-          // <Link>
+          <Link>
             <div className="helpFormLink w-70"  onClick={()=>history.push(item.linkin)}>
               <Heading
                 headingClass="text-prussian-blue pt-2 text-small font-weight-900"
@@ -47,7 +47,7 @@ export const HelpForm = () => {
                 paraText={item.paraText}
               />
             </div>
-          // </Link>
+          </Link>
         );
       })}
       <div className="pt-5">
