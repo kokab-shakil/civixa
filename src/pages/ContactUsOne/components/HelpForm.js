@@ -9,17 +9,17 @@ import { useHistory } from "react-router-dom";
 const data = [
   {
     headingText: "Book a demo",
-    paraText: "Book a demo with our team and get to know us better",
+    paraText: "We love supporting you. Any way you choose.",
     linkin:"/contact"
   },
   {
     headingText: "Contact Sales",
-    paraText: "Want to annotate your dataset? Contact our sales team and we will get back to you.",
+    paraText: "We love supporting you. Any way you choose.",
     linkin:"/contact"
   },
   {
     headingText: "Become an annotation partner",
-    paraText: "Want to join our annotation army? Send us your details and we will get in touch with you.",
+    paraText: "We love supporting you. Any way you choose.",
     linkin:"/contact"
   },
 ];
