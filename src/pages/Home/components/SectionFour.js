@@ -16,14 +16,16 @@ export default function SectionFour({ classes }) {
             "A",
             <span className="position-relative">
               <span className="mx-2 underlined">RESOURCEFUL</span>
-            </span>,
-            "AI PARTNER",
+            </span>, 
+            <span>AI PARTNER</span>
+           
           ]}
           para
           paraClass=" text-center m-auto"
           paraText="At Civixa, you can expect a comprehensive package that will incorporate AI in your business from scratch. "
         />
-        <Row className="data-square-icon d-flex align-items-center flex-column flex-xl-row flex-lg-row w-70 m-auto">
+        <Row className="data-square-icon d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row   m-auto">
+          <Col md={12} lg={9} className="data-square-icon d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row   m-auto " > 
           <SquareIcon
             className={"icon-size"}
             titleOne="Raw Data"
@@ -41,7 +43,8 @@ export default function SectionFour({ classes }) {
             className={"icon-size"}
             titleOne="Annotated Data"
             Icon={Engineers}
-          />
+            />
+          </Col>
         </Row>
         <Row className="pt-5 d-flex justify-content-lg-start justify-content-center">
           <Col xs={4} md={4} className="p-1">

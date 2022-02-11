@@ -91,6 +91,7 @@ export const Packages = ({ classes }) => {
 									paraText="Protect your workers so you can maintain business operations"
 								/>
 							</Col>
+							<Col >
 							{packagesDetails.map((items) => {
 								return (
 									<Container fluid className={items.bg}>
@@ -99,17 +100,15 @@ export const Packages = ({ classes }) => {
 												<Heading
 													// HeadingContainer="justify-content-md-start"
 													iconBefore
-													iconBeforeClass="justify-content-md-start ml-0 ml-xl-5"
+													iconBeforeClass="justify-content-md-start ml-0  ml-md-0 ml-lg-5  ml-xl-5"
 													icon={items.icon}
 													headingClass="text-small font-weight-600 mb-0 pl-2"
-													HeadingText={
-														items.headingText
-													}
+													HeadingText={items.headingText}
 												/>
 											</Col>
 											<Col xs={6} md={7}>
 												<Heading
-													headingClass="text-small font-weight-600 mb-0 text-break"
+													headingClass=" d-flex justify-content-sm-end text-small font-weight-600 pl-3 mb-0 text-break"
 													HeadingText={items.package}
 												/>
 											</Col>
@@ -117,6 +116,7 @@ export const Packages = ({ classes }) => {
 									</Container>
 								);
 							})}
+							</Col >
 							<CustomButton
 								btnText="GET STARTED IN MINUTES"
 								btnColor="green"

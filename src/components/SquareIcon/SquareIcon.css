@@ -14,10 +14,16 @@
   padding-left: 30px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .arrow-after::after {
     transform: rotateZ(90deg);
     padding: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .arrow-after::after {
+    /* transform: rotateZ(90deg); */
+    padding: 0px;
   }
 }
 @media screen and (max-width: 600px) {

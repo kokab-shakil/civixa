@@ -49,7 +49,7 @@ const ResponsiveItem = () => {
 				<Row className="py-3 d-flex justify-content-start justify-content-sm-center justify-content-md-center">
 					{childData.map((item, key) => {
 						return (
-							<Col xs={4} sm={'auto'}
+							<Col xs={6} sm={'auto'}
 								key={key}
 								className="service-carousel-smallIcon"
 							>

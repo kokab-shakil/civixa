@@ -11,6 +11,7 @@
 	border-bottom: 0.5px solid #383737;
 	padding-bottom: 3px;
 }
+
 .question-underlined:hover {
 	text-decoration: none;
 	color: #58595b;
@@ -69,7 +70,7 @@
 }
 
 .paddingPartner{
-	padding-left: 66px;
+	padding-left: 5vw;
 }
 video {
 	object-fit: cover;
@@ -80,9 +81,11 @@ video {
 	width: 480px;
 	height: 300px;
 }
+
 .data-heading.bannerheading {
 	font-size: 28px;
 }
+
 /* .banner-contact-details {
 	padding-left: 0.8rem;
 }
@@ -112,7 +115,7 @@ video {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .data-square-icon-heading {
 	font: normal normal 600 13px/20px Source Sans Pro;
 	
@@ -126,6 +129,6 @@ video {
 	padding-right: 8vw;
 }
 .paddingPartner{
-	padding-left: 8vw;
+	padding-left: 18px;
 }
 }

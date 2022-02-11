@@ -16,12 +16,13 @@ export default function SquareIcon({
 			<Col
 				xs={xs ? xs : 6}
 				md={4}
+				lg={4}
 				className={`d-flex align-items-center justify-content-center justify-content-md-start mb-4 ${
 					arrowAfter
-						? "arrow-after flex-column flex-xl-row flex-lg-row"
+						? "arrow-after flex-column flex-md-row flex-xl-row flex-lg-row"
 						: ""
 				}`}
-			>
+		    	>
 				<div
 					className={"sq-icon d-flex flex-column align-items-center"}
 				>

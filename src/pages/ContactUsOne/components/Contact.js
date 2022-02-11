@@ -7,10 +7,10 @@ export const Contact = ({ classes }) => {
   return (
     <Row className={`${classes} align-items-lg-start`}>
       <Col md={6} xs={12}>
-        <ContactForm />
+        <ContactForm/>
       </Col>
       <Col md={6} xs={12} className="pl-5 pt-5">
-        <HelpForm />
+        <HelpForm /> 
       </Col>
     </Row>
   );

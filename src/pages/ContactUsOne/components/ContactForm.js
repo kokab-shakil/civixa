@@ -9,8 +9,8 @@ import email from "./../images/email.svg";
 
 export const ContactForm = () => {
   return (
-    <Container className="bg-lightgray p-3 p-md-5">
-      <Row>
+    <Container className="bg-lightgray ">
+      <Row className="justify-content-center p-4 p-md-5">
         <FormInput />
       </Row>
       <Row className="pt-5 pl-0 pl-md-4">
@@ -26,7 +26,7 @@ export const ContactForm = () => {
               iconClass="pt-2"
               icon={work}
             /> */}
-            <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={work}>
+            <SideIcon flexRow='flex-row' alignLeft="align-items-start " sideIconClass="mb-3" iconClass="pt-2" icon={work}>
               <a
                 className="text-prussian-blue text-normal w-70 pl-4 pr-5"
                 target="_top"
@@ -36,7 +36,7 @@ export const ContactForm = () => {
                 <span className="pl-4"> Las Condes, Santiago</span>
               </a>
             </SideIcon>
-            <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={email}>
+            <SideIcon flexRow='flex-row' alignLeft="align-items-start " sideIconClass="mb-3" iconClass="pt-2" icon={email}>
               <a
                 className="text-prussian-blue text-normal w-70 pl-4"
                 target="_top"
@@ -45,7 +45,7 @@ export const ContactForm = () => {
                 hello@civixa.com
               </a>
             </SideIcon>
-            <SideIcon sideIconClass="mb-3" iconClass="pt-2" icon={phone}>
+            <SideIcon flexRow='flex-row' alignLeft="align-items-start " sideIconClass="mb-3" iconClass="pt-2" icon={phone}>
               <a
                 className=" text-prussian-blue text-normal w-70 pl-4"
                 target="_top"

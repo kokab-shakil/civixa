@@ -14,9 +14,7 @@ export const FormInput = () => {
         ? formField.classList.remove("form-field--is-filled")
         : formField.classList.add("form-field--is-filled");
     }
-  };
-
-  [].forEach.call(
+  };[].forEach.call(
     document.querySelectorAll(".form-field__input, .form-field__textarea"),
     (el) => {
       el.onblur = () => {
@@ -29,7 +27,7 @@ export const FormInput = () => {
   );
   return (
     <form novalidate>
-      <div class="row">
+      <div class="row jhkj">
         <div class="col-sm">
           <div class="form-field">
             <div class="form-field__control">
@@ -51,7 +49,7 @@ export const FormInput = () => {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row ">
         <div class="col-sm">
           <div class="form-field">
             <div class="form-field__control">
@@ -85,7 +83,7 @@ export const FormInput = () => {
           </div>
         </div>
       </div>
-      <div class="row">
+      {/* <div class="row">
         <div class="col-sm">
           <div class="form-field">
             <div class="form-group form-check">
@@ -100,7 +98,7 @@ export const FormInput = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div class="row">
         <div class="col-sm">
           <div class="form-field">

@@ -8,8 +8,8 @@ export const ContactOneBanner = ({ classes }) => {
       <Heading
         topHeading
         topHeadingText="GOT A QUESTION?"
-        topHeadingClass="text-white text-normal text-center"
-        headingClass="text-white"
+        topHeadingClass="text-white text-normal pl-3 text-center"
+        headingClass="text-white text-center"
         HeadingText="Let’s talk. Or chat. Or…"
         para
         paraText="We love supporting you. Any way you choose."

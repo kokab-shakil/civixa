@@ -15,7 +15,7 @@ export default function SmallBanner({ classes }) {
 		<Row className={classes}>
 			<Col xs={12} md={7} className="p-0">
 				{width >= 1165 ? (
-					<h1 className="d-flex text-white font-weight-900 text-medium text-center text-md-left">
+					<h1 className="d-flex text-white font-weight-900 text-medium text-center ">
 						<span>Make</span>
 						<span className="position-relative pl-2">
 							<span className="pr-2 underlined">Civixa</span>
@@ -23,11 +23,11 @@ export default function SmallBanner({ classes }) {
 						<span>Your Competitive Advantage</span>
 					</h1>
 				) : (
-					<h1 className="d-flex text-white font-weight-900 xs-fontSize-boldHeading text-medium text-center text-md-left">
+					<h1 className="d-flex justify-content-center text-white font-weight-900 xs-fontSize-boldHeading text-medium text-center ">
 						Make Civixa your competative advantage
 					</h1>
 				)}
-				<p className="text-white w-70 line-height1-1 text-center text-md-left">
+				<p className="text-white w-70 line-height1-1 text-center ">
 					It’s easy to get started. Reachout to us and our
 					representative will get in touch with you.
 				</p>
@@ -50,7 +50,7 @@ export default function SmallBanner({ classes }) {
 				xs={12}
 				md={5}
 				className={
-					"p-md-0 d-flex justify-content-start justify-content-md-center"
+					"p-md-0 d-flex  justify-content-center"
 				}
 			>
 				<Row>

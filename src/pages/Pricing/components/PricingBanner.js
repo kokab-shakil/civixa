@@ -11,11 +11,11 @@ export const PricingBanner = ({ classes }) => {
 	return (
 		<Row className={classes}>
 			<Heading
-				headingClass="text-white font-weight-900"
+				headingClass="text-white  text-center font-weight-900"
 				HeadingText="Flexible & Transparent Pricing"
 				para
 				paraText="Try Civixa.ai free before deciding the plan or take pay as you go plan"
-				paraClass="text-white text-md-center"
+				paraClass="text-white text-center text-md-center"
 			>
 				<CustomButton
 					btnText="REQUEST DEMO"

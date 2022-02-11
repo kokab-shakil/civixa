@@ -30,3 +30,18 @@
 	box-shadow: 0px 10px 20px #00000029;
 	border: 10px solid #5cdb95;
 }
+
+@media screen and (max-width: 1328px) and (min-width: 1200px) {
+ .card.cardList {
+	height: 245px;
+	width: 164px;
+	border: 1px solid #12356a;
+	border-radius: 10px;
+	bottom: 0;
+	right: 0;
+	transition: all 0.2s ease-in-out;
+	margin-right: 0px !important;
+	/* transition: bottom 2s, right 2s; */
+}
+
+}
