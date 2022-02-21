@@ -5,7 +5,7 @@ import SquareIcon from "../../../components/SquareIcon/SquareIcon";
 import CivixaAi from "../../../images/home/CivixaAi.svg";
 import Engineers from "../../../images/home/Engineers.png";
 import RawData from "../../../images/home/RawData.png";
-
+import '../../../App.css'
 export default function SectionFour({ classes }) {
   return (
     <Row className={classes}>
@@ -24,8 +24,8 @@ export default function SectionFour({ classes }) {
           paraClass=" text-center m-auto"
           paraText="At Civixa, you can expect a comprehensive package that will incorporate AI in your business from scratch. "
         />
-        <Row className="data-square-icon d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row   m-auto">
-          <Col md={12} lg={9} className="data-square-icon d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row   m-auto " > 
+        <Row className="data-square-icon xtra-Padding d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row   m-auto">
+          <Col md={12} lg={9} className="data-square-icon d-flex align-items-center flex-column flex-md-row flex-xl-row flex-lg-row  m-auto " > 
           <SquareIcon
             className={"icon-size"}
             titleOne="Raw Data"

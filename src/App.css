@@ -314,7 +314,10 @@ font-size: 1rem;
 	border-radius: 10px;
 	box-shadow: 0px 10px 40px #bbbdbc;
 }
-
+.xtra-Padding{
+	padding-top: 2vw;
+	padding-left: 8vw;
+}
 .padding-x {
 	padding-left: 8vw;
 	padding-right: 8vw;
