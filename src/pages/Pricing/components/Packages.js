@@ -27,7 +27,7 @@ const packagesDetails = [
 		bg: "bg-lightgray",
 		icon: classification,
 		headingText: "Classification",
-		package: "$0.01/annotation",
+		package: "$0.05/annotation",
 	},
 	{
 		bg: "bg-white",
