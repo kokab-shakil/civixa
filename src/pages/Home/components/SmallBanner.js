@@ -23,11 +23,11 @@ export default function SmallBanner({ classes }) {
 						<span>Your Competitive Advantage</span>
 					</h1>
 				) : (
-					<h1 className="d-flex justify-content-center text-white font-weight-900 xs-fontSize-boldHeading text-medium text-center ">
+					<h1 className="d-flex justify-content-center text-white font-weight-900 xs-fontSize-boldHeading text-medium text-center text-md-left  ">
 						Make Civixa your competative advantage
 					</h1>
 				)}
-				<p className="text-white w-70 line-height1-1 text-center ">
+				<p className="text-white w-70 line-height1-1 text-center text-md-left">
 					It’s easy to get started. Reachout to us and our
 					representative will get in touch with you.
 				</p>

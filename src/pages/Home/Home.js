@@ -47,11 +47,11 @@ export default function Home({ handleHeaderColor }) {
 				bgColor="bg-lightgreen"
 				classes={"paddingCv"}
 			>
-				<SectionFour classes={`${commonClasses} padding-all`} />
+				<SectionFour classes={`${commonClasses} padding-aiPartner`} />
 			</CustomSection>
 			<CustomSection height="h-auto" bgColor="white" classes="">
 				<PreTrainedModels
-					classes={`d-flex align-items-stretch justify-content-between h-100 padding-all`}
+					classes={`d-flex align-items-stretch justify-content-between h-100 padding-all-ai`}
 				/>
 			</CustomSection>
 			<CustomSection

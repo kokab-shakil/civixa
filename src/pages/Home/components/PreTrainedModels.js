@@ -5,6 +5,7 @@ import CustomCard from "../../../components/CustomCard/CustomCard";
 import Heading from "../../../components/Heading";
 import CovidModel from "../../../images/CovidModel.svg";
 import useWindowSize from "../../../WindowSize";
+import "../../../App.css"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -47,7 +48,7 @@ export default function PreTrainedModels({ classes }) {
 					"d-flex flex-wrap justify-content-center justify-content-lg-around p-0 px-md-0"
 				}
 			>
-				{width > 800 ? (
+				{width > 880 ? (
 					<>
 						<CustomCard
 							icon={CovidModel}

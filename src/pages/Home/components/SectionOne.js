@@ -53,9 +53,9 @@ export default function SectionOne({ classes }) {
 			<Col xs={12} md={6} className={"pt-4 paddingPartner"}>
 				<div className="">
 					<h1 className="data-heading ">
-						<div className="d-flex xs-fontSize-boldHeading justify-content-md-start justify-content-center text-center text-md-left text-lg-left">
+						<div className="d-flex d-md-table d-lg-table d-xl-flex xs-fontSize-boldHeading justify-content-md-start justify-content-center text-center text-md-left text-lg-left">
 							Your Partner In 
-							<div className="d-flex justify-content-center justify-content-md-start text-center">
+							<div className="d-flex  justify-content-center justify-content-md-start text-center">
 								<span className="ml-2 underlined">Automation</span>
 							</div>
 						</div>

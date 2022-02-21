@@ -52,7 +52,7 @@ export default function SectionFour({ classes }) {
               headingClass={"data-heading text-center text-xlg"}
               HeadingText={"1M+"}
               para
-              paraClass={"text-center paraMedia text-prussian-blue font-weight-600"}
+              paraClass={"text-center paraMedia text-prussian-blue font-weight-md-300 font-weight-600"}
               paraText={"Data Generated"}
             />
           </Col>
